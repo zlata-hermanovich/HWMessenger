@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthorizationFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/imageViewText"
+            android:layout_width="@dimen/heightSplashLogo"
+            android:layout_height="@dimen/heightSplashLogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/marginButtonFromParent"
+            android:layout_marginEnd="@dimen/marginLogoInLogin"
+            app:srcCompat="@drawable/ic_corruption" />
+
+        <ImageView
+            android:id="@+id/imageViewLogotype"
+            android:layout_width="@dimen/heightSplashLogo"
+            android:layout_height="@dimen/heightSplashLogo"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/marginButtonFromParent"
+            android:layout_marginStart="@dimen/marginLogoInLogin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_texture_24" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="@dimen/buttonLoginWidth"
+            android:layout_height="@dimen/buttonLoginHeight"
+            android:layout_marginBottom="@dimen/marginButtonFromParent"
+            android:backgroundTint="@color/white"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:hint="e-mail"
+            app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="@dimen/buttonLoginWidth"
+            android:layout_height="@dimen/buttonLoginHeight"
+            android:backgroundTint="@color/white"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:hint="@string/password"
+            android:layout_marginBottom="@dimen/marginButtonFromParent"
+            app:layout_constraintBottom_toTopOf="@+id/buttonSignIn"
+            app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
+            app:layout_constraintStart_toStartOf="@+id/editTextEmail" />
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="@dimen/buttonLoginWidth"
+            android:layout_height="@dimen/buttonLoginHeight"
+            android:layout_marginBottom="@dimen/marginSignInButton"
+            android:background="@drawable/button_style"
+            android:text="@string/entrance"
+            android:enabled="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/editTextPassword"
+            app:layout_constraintStart_toStartOf="@+id/editTextPassword" />
+
+        <Button
+            android:id="@+id/buttonRegistration"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/buttonLoginHeight"
+            android:layout_marginStart="@dimen/marginButtonFromParent"
+            android:layout_marginBottom="@dimen/marginButtonFromParent"
+            android:text="@string/registration"
+            android:textColor="@color/textSplashButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/buttonResetPasOnLog"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/buttonLoginHeight"
+            android:layout_marginEnd="@dimen/marginButtonFromParent"
+            android:layout_marginBottom="@dimen/marginButtonFromParent"
+            android:text="@string/reset"
+            android:textColor="@color/textSplashButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

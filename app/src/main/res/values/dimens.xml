@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonLoginWidth">320dp</dimen>
+    <dimen name="buttonLoginHeight">56dp</dimen>
+    <dimen name="marginButtonFromParent">40dp</dimen>
+    <dimen name="marginSignInButton">300dp</dimen>
+    <dimen name="heightSplashLogo">100dp</dimen>
+    <dimen name="marginLogoFromParent">200dp</dimen>
+    <dimen name="rectangleImageRegWidth">400dp</dimen>
+    <dimen name="rectangleImageRegHeight">380dp</dimen>
+    <dimen name="marginPictureReg">40dp</dimen>
+    <dimen name="marginBetweenRegistrView">8dp</dimen>
+    <dimen name="marginPasswordFromStart">80dp</dimen>
+    <dimen name="marginPasswordFromBotton">130dp</dimen>
+    <dimen name="marginNameFromTop">130dp</dimen>
+    <dimen name="marginCheckBoxFromTop">60dp</dimen>
+    <dimen name="marginLogoInLogin">100dp</dimen>
+    <dimen name="CapsText">40dp</dimen>
+
+</resources>

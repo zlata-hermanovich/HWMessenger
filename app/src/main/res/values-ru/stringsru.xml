@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fake News</string>
+    <string name="repeat_password">повторите\nпароль</string>
+    <string name="userAgree">Пользовательское соглашение</string>
+    <string name="entrance">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="reset">восстановление \nпароля</string>
+    <string name="password">пароль</string>
+    <string name="date_of_birth">дата рождения</string>
+    <string name="name">имя</string>
+    <string name="surname">фамилия</string>
+    <string name="additionChats">+ добавить чат</string>
+</resources>

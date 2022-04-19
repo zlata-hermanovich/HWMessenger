@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fake News</string>
+    <string name="repeat_password">repeat\npassword</string>
+    <string name="userAgree">I accept the terms\nof the user agreement </string>
+    <string name="entrance">Sign in</string>
+    <string name="registration">Registration</string>
+    <string name="reset">Reset password</string>
+    <string name="password">password</string>
+    <string name="date_of_birth">date of birth</string>
+    <string name="name">name</string>
+    <string name="surname">surname</string>
+    <string name="additionChats">+ addition chats</string>
+</resources>
